@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 284" width="830" height="284">
+  <style>
+    
+    .b3-slide-left {
+      opacity: 0;
+      animation: b3-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b3-slide-right {
+      opacity: 0;
+      animation: b3-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b3-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b3-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b3-scroll-up {
+      animation: b3-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b3-scroll-down {
+      transform: translateY(-220px);
+      animation: b3-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b3-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-220px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b3-scrollDown {
+      0%, 5% { transform: translateY(-220px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-220px); }
+    }
+  </style>
+  
+    <rect x="0" y="0" width="830" height="284" fill="#282a36"/>
+  
+    <defs>
+      <clipPath id="b3-clip-0">
+        <rect x="16" y="12" width="391" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b3-slide-left">
+      <g clip-path="url(#b3-clip-0)">
+        <rect x="16" y="12" width="391" height="252" rx="10" fill="#44475a" opacity="0.15"/>
+        <g class="b3-scroll-up">
+          <g transform="translate(16, 12)">
+            <text x="20" y="31" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Before</text>
+          <text x="20" y="53" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Plain text README</text>
+          <text x="20" y="97" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No visual previews</text>
+          <text x="20" y="119" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Static badges only</text>
+          <text x="20" y="141" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Hard to show features</text>
+          <text x="20" y="163" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users scroll past docs</text>
+          <text x="20" y="185" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No brand consistency</text>
+          <text x="20" y="207" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Boring, forgettable</text>
+          <text x="20" y="229" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Low engagement</text>
+          <text x="20" y="251" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Before</text>
+          <text x="20" y="273" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Plain text README</text>
+          <text x="20" y="317" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No visual previews</text>
+          <text x="20" y="339" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Static badges only</text>
+          <text x="20" y="361" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Hard to show features</text>
+          <text x="20" y="383" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users scroll past docs</text>
+          <text x="20" y="405" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No brand consistency</text>
+          <text x="20" y="427" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Boring, forgettable</text>
+          <text x="20" y="449" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Low engagement</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b3-clip-1">
+        <rect x="423" y="12" width="391" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b3-slide-right">
+      <g clip-path="url(#b3-clip-1)">
+        <rect x="423" y="12" width="391" height="252" rx="10" fill="#44475a" opacity="0.15"/>
+        <g class="b3-scroll-down">
+          <g transform="translate(423, 12)">
+            <text x="20" y="31" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">After</text>
+          <text x="20" y="53" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Animated SVG previews</text>
+          <text x="20" y="97" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Terminal &amp; app mockups</text>
+          <text x="20" y="119" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Interactive feel, no JS</text>
+          <text x="20" y="141" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Features come alive</text>
+          <text x="20" y="163" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users stop and look</text>
+          <text x="20" y="185" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent branding</text>
+          <text x="20" y="207" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Memorable, shareable</text>
+          <text x="20" y="229" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">2x more engagement</text>
+          <text x="20" y="251" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">After</text>
+          <text x="20" y="273" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Animated SVG previews</text>
+          <text x="20" y="317" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Terminal &amp; app mockups</text>
+          <text x="20" y="339" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Interactive feel, no JS</text>
+          <text x="20" y="361" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Features come alive</text>
+          <text x="20" y="383" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users stop and look</text>
+          <text x="20" y="405" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent branding</text>
+          <text x="20" y="427" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Memorable, shareable</text>
+          <text x="20" y="449" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">2x more engagement</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="278" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg>

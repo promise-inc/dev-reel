@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 256" width="560" height="256">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.35s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.83s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.38s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.90s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.31s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.89s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.36s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.87s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 4.38s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="256" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="256" fill="#0a0a0b"/>
+      <rect x="0" y="0" width="560" height="36" fill="#111113"/>
+      <line x1="0" y1="36" x2="560" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="256" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="6" fill="#eab308"/>
+    <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+    <text x="280" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">npm install</text>
+  
+  <g>
+    <text x="20" y="66" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ npm install @promise-inc/dev-reel</text>
+    <text x="20" y="86" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">✔ added 1 package in 0.8s</text>
+    <text x="20" y="106" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2"></text>
+    <text x="20" y="126" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">$ npx dev-reel</text>
+    <text x="20" y="146" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ Found 3 dev-reel blocks</text>
+    <text x="20" y="166" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ Generated assets/dev-reel-1.svg</text>
+    <text x="20" y="186" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">✔ Generated assets/dev-reel-2.svg</text>
+    <text x="20" y="206" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">✔ Generated assets/dev-reel-3.svg</text>
+    <text x="20" y="226" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">✔ README.md updated</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="234" width="8" height="15" rx="1"/>
+  <text x="552" y="250" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

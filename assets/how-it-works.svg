@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 176" width="560" height="176">
+  <style>
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.32s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.84s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.35s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.86s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.38s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+
+  <defs>
+    <clipPath id="terminal-clip">
+      <rect x="0" y="0" width="560" height="176" rx="10" ry="10"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#terminal-clip)">
+    <rect x="0" y="0" width="560" height="176" fill="#0a0a0b"/>
+    <rect x="0" y="0" width="560" height="36" fill="#111113"/>
+    <line x1="0" y1="36" x2="560" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+  </g>
+  <rect x="0" y="0" width="560" height="176" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+  <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+  <circle cx="38" cy="18" r="6" fill="#eab308"/>
+  <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+  <text x="280" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">@promise-inc/dev-reel</text>
+
+  <g>
+    <text x="20" y="66" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ npx ai-guard</text>
+    <text x="20" y="86" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="20" y="106" fill="#f87171" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">✖ src/user.service.ts Excessive comments (22%)</text>
+    <text x="20" y="126" fill="#facc15" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">⚠ src/hooks/useFetch.ts Function too large</text>
+    <text x="20" y="146" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ src/components/Button.tsx Passed</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="154" width="8" height="15" rx="1"/>
+  <text x="552" y="170" text-anchor="end" fill="#e4e4e7" opacity="0.08" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="9">@promise-inc/dev-reel</text>
+</svg>

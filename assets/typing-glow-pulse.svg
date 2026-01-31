@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 276" width="560" height="276">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.38s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.82s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.30s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.82s forwards,
+        glowSuccess 2.5s ease-in-out 2.30s infinite;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.38s forwards,
+        glowSuccess 2.5s ease-in-out 2.80s infinite;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.87s forwards,
+        glowSuccess 2.5s ease-in-out 3.30s infinite;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.37s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.86s forwards,
+        pulseError 2s ease-in-out 4.30s infinite;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 4.38s forwards,
+        glowSuccess 2.5s ease-in-out 4.80s infinite;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 4.86s forwards,
+        glowSuccess 2.5s ease-in-out 5.30s infinite;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes pulseError {
+      0%, 100% { fill-opacity: 1; }
+      50% { fill-opacity: 0.5; }
+    }
+    @keyframes glowSuccess {
+      0%, 100% { filter: drop-shadow(0 0 0px #50fa7b00); }
+      50% { filter: drop-shadow(0 0 4px #50fa7b88); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #f8f8f2;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="276" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="276" fill="#282a36"/>
+      <rect x="0" y="0" width="560" height="36" fill="#21222c"/>
+      <line x1="0" y1="36" x2="560" y2="36" stroke="#282a36" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="276" rx="10" ry="10" fill="none" stroke="#21222c" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ff5555"/>
+    <circle cx="38" cy="18" r="6" fill="#f1fa8c"/>
+    <circle cx="58" cy="18" r="6" fill="#50fa7b"/>
+
+    <text x="280" y="23" text-anchor="middle" fill="#6272a4" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">deployment</text>
+  
+  <g>
+    <text x="20" y="66" fill="#bd93f9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ npm run deploy</text>
+    <text x="20" y="86" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="20" y="106" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Building production bundle...</text>
+    <text x="20" y="126" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">✔ Bundle size: 142kb (gzipped)</text>
+    <text x="20" y="146" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ TypeScript: 0 errors</text>
+    <text x="20" y="166" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ Lint: 0 warnings</text>
+    <text x="20" y="186" fill="#f1fa8c" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">⚠ Unused export in src/helpers.ts</text>
+    <text x="20" y="206" fill="#ff5555" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">✖ Deploy failed: missing API_KEY</text>
+    <text x="20" y="226" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">✔ Retry with --env=staging</text>
+    <text x="20" y="246" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-9">✔ Deployed to staging.promise.codes</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="254" width="8" height="15" rx="1"/>
+  <text x="552" y="270" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

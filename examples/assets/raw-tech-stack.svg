@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 248" width="560" height="248">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="560" height="248" rx="12" ry="12" fill="#282a36" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="560" height="248" rx="12" ry="12" fill="none" stroke="#f8f8f2" stroke-width="0.5" opacity="0.1"/>
+    <text x="280" y="26" text-anchor="middle" fill="#6272a4" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13" font-weight="600">Tech Stack</text>
+    <line x1="0" y1="40" x2="560" y2="40" stroke="#f8f8f2" stroke-width="0.5" opacity="0.1"/>
+  <g>
+    <text x="24" y="74" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Frontend     React 19 + TypeScript</text>
+    <text x="24" y="94" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">Styling      Tailwind CSS v4</text>
+    <text x="24" y="114" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Backend      Node.js + Fastify</text>
+    <text x="24" y="134" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">Database     PostgreSQL + Drizzle</text>
+    <text x="24" y="154" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">Cache        Redis</text>
+    <text x="24" y="174" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">Search       Meilisearch</text>
+    <text x="24" y="194" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">Hosting      Vercel + Railway</text>
+    <text x="24" y="214" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">CI/CD        GitHub Actions</text>
+  </g>
+  
+  <text x="552" y="242" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

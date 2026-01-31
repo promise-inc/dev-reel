@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 654" width="400" height="654">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.35s forwards;
+    }
+    .line-10 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.70s forwards;
+    }
+    .line-11 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.05s forwards;
+    }
+    .line-12 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.40s forwards;
+    }
+    .line-13 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.75s forwards;
+    }
+    .line-14 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.10s forwards;
+    }
+    .line-15 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.45s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .notif-card-2 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 0.80s forwards;
+    }
+    .notif-card-4 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 1.30s forwards;
+    }
+    .notif-card-6 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 1.80s forwards;
+    }
+    .notif-card-8 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 2.30s forwards;
+    }
+    .notif-card-13 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 3.55s forwards;
+    }
+    .notif-card-15 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 4.05s forwards;
+    }
+    @keyframes slideCard {
+      0% { opacity: 0; transform: translateX(40px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="mobile-clip">
+        <rect x="0" y="0" width="400" height="654" rx="44" ry="44"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#mobile-clip)">
+      <rect x="0" y="0" width="400" height="654" fill="#0a0a0b"/>
+    <rect x="140" y="10" width="120" height="34" rx="17" ry="17" fill="#000"/>
+    <text x="28" y="30" fill="#e4e4e7" font-family="'SF Pro Display','Inter',-apple-system,system-ui,sans-serif" font-size="14" font-weight="600" opacity="0.9">9:41</text>
+    <g transform="translate(324, 18)" opacity="0.9">
+      <rect x="0" y="2" width="16" height="10" rx="1.5" fill="none" stroke="#e4e4e7" stroke-width="1.2"/>
+      <rect x="1.5" y="3.5" width="11" height="7" rx="0.5" fill="#e4e4e7"/>
+      <rect x="16" y="5" width="1.5" height="4" rx="0.5" fill="#e4e4e7"/>
+      <g transform="translate(24, 0)">
+        <path d="M0 12 L4 2 L8 8 L12 0 L16 12" fill="none" stroke="#e4e4e7" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(48, 0)">
+        <path d="M0 10 C0 10, 4 0, 8 0 C12 0, 16 10, 16 10" fill="none" stroke="#e4e4e7" stroke-width="1.3" stroke-linecap="round"/>
+      </g>
+    </g>
+    <text x="200" y="48" text-anchor="middle" fill="#e4e4e7" font-family="'SF Pro Display','Inter',-apple-system,system-ui,sans-serif" font-size="16" font-weight="600">Notifications</text>
+    </g>
+    <rect x="0" y="0" width="400" height="654" rx="44" ry="44" fill="none" stroke="#e4e4e7" stroke-width="3" opacity="0.12"/>
+    <rect x="133" y="636" width="134" height="5" rx="2.5" fill="#e4e4e7" opacity="0.2"/>
+  <g>
+    <text x="24" y="92" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Today</text>
+    <text x="24" y="120" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <g class="line-2">
+      <g class="notif-card notif-card-2">
+        <rect x="24" y="130" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="152" r="6" fill="#ff6b8a"/>
+        <text x="60" y="156" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Sarah liked your photo • 2m</text>
+      </g>
+    </g>
+    <text x="24" y="176" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3"></text>
+    <g class="line-4">
+      <g class="notif-card notif-card-4">
+        <rect x="24" y="186" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="208" r="6" fill="#8b5cf6"/>
+        <text x="60" y="212" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">New follower: @designlabs • 5m</text>
+      </g>
+    </g>
+    <text x="24" y="232" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5"></text>
+    <g class="line-6">
+      <g class="notif-card notif-card-6">
+        <rect x="24" y="242" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="264" r="6" fill="#f59e0b"/>
+        <text x="60" y="268" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Your order has shipped! • 12m</text>
+      </g>
+    </g>
+    <text x="24" y="288" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7"></text>
+    <g class="line-8">
+      <g class="notif-card notif-card-8">
+        <rect x="24" y="298" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="320" r="6" fill="#10b981"/>
+        <text x="60" y="324" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Payment received: $49.00 • 1h</text>
+      </g>
+    </g>
+    <text x="24" y="344" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-9"></text>
+    <text x="24" y="372" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-10"></text>
+    <text x="24" y="400" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-11">Yesterday</text>
+    <text x="24" y="428" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-12"></text>
+    <g class="line-13">
+      <g class="notif-card notif-card-13">
+        <rect x="24" y="438" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="460" r="6" fill="#3b82f6"/>
+        <text x="60" y="464" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Welcome to the app! • 18h</text>
+      </g>
+    </g>
+    <text x="24" y="484" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-14"></text>
+    <g class="line-15">
+      <g class="notif-card notif-card-15">
+        <rect x="24" y="494" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="516" r="6" fill="#6366f1"/>
+        <text x="60" y="520" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Complete your profile • 1d</text>
+      </g>
+    </g>
+  </g>
+  
+  <text x="392" y="648" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

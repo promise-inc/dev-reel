@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 236" width="560" height="236">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #f8f8f2;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="236" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="236" fill="#282a36"/>
+      <rect x="0" y="0" width="560" height="36" fill="#21222c"/>
+      <line x1="0" y1="36" x2="560" y2="36" stroke="#282a36" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="236" rx="10" ry="10" fill="none" stroke="#21222c" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ff5555"/>
+    <circle cx="38" cy="18" r="6" fill="#f1fa8c"/>
+    <circle cx="58" cy="18" r="6" fill="#50fa7b"/>
+
+    <text x="280" y="23" text-anchor="middle" fill="#6272a4" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">retro-build</text>
+  
+  <g>
+    <text x="20" y="66" fill="#bd93f9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ make build</text>
+    <text x="20" y="86" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="20" y="106" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Compiling src/main.c...</text>
+    <text x="20" y="126" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">Compiling src/utils.c...</text>
+    <text x="20" y="146" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">Compiling src/render.c...</text>
+    <text x="20" y="166" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">Linking objects...</text>
+    <text x="20" y="186" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">✔ Build complete: bin/app (2.4MB)</text>
+    <text x="20" y="206" fill="#50fa7b" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">✔ No warnings</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="214" width="8" height="15" rx="1"/>
+  <text x="552" y="230" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+    <defs>
+      <linearGradient id="scanline-grad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ff79c6" stop-opacity="0"/>
+        <stop offset="45%" stop-color="#ff79c6" stop-opacity="0.03"/>
+        <stop offset="50%" stop-color="#ff79c6" stop-opacity="0.06"/>
+        <stop offset="55%" stop-color="#ff79c6" stop-opacity="0.03"/>
+        <stop offset="100%" stop-color="#ff79c6" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="52" width="100%" height="30" fill="url(#scanline-grad)" opacity="0.8">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0,0;0,184"
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </rect>
+    <defs>
+      <filter id="noise-filter">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" seed="1" stitchTiles="stitch"/>
+        <feColorMatrix type="saturate" values="0"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="560" height="236" filter="url(#noise-filter)" opacity="0.015">
+      <animate attributeName="opacity" values="0.015;0.025;0.015" dur="0.3s" repeatCount="indefinite"/>
+    </rect>
+</svg>

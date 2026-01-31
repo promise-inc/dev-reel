@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 216" width="830" height="216">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.36s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.87s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.37s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.87s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.36s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.90s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.34s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+    @keyframes progressFill {
+      0% { transform: scaleX(0); }
+      80% { transform: scaleX(1); }
+      100% { transform: scaleX(1); }
+    }
+    .progress-bar-fill {
+      fill: #a78bfa;
+      transform-origin: left center;
+      animation: progressFill 3s ease-out forwards;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="830" height="216" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="830" height="216" fill="#0a0a0b"/>
+      <rect x="0" y="0" width="830" height="36" fill="#111113"/>
+      <line x1="0" y1="36" x2="830" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="830" height="216" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="6" fill="#eab308"/>
+    <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+    <text x="415" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">deploy preview</text>
+  
+  <g>
+    <text x="20" y="66" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ npx vercel --prod</text>
+    <text x="20" y="86" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">Vercel CLI 33.0.0</text>
+    <text x="20" y="106" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Building project...</text>
+    <g class="line-3">
+      <rect x="20" y="117" width="790" height="10" rx="4" fill="#27272a"/>
+      <rect class="progress-bar-fill" x="20" y="117" width="790" height="10" rx="4"/>
+    </g>
+    <text x="20" y="146" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ Build complete</text>
+    <text x="20" y="166" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ Deployed to production</text>
+    <text x="20" y="186" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">✔ https://myapp.vercel.app</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="194" width="8" height="15" rx="1"/>
+  <text x="822" y="210" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

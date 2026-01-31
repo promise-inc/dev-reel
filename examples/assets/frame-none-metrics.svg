@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 352" width="560" height="352">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.35s forwards;
+    }
+    .line-10 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.70s forwards;
+    }
+    .line-11 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.05s forwards;
+    }
+    .line-12 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.40s forwards;
+    }
+    .line-13 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.75s forwards;
+    }
+    .line-14 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.10s forwards;
+    }
+    .line-15 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.45s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .bar-fill-3 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 1.45s forwards;
+    }
+    .bar-fill-6 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 2.50s forwards;
+    }
+    .bar-fill-9 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 3.55s forwards;
+    }
+    .bar-fill-12 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 4.60s forwards;
+    }
+    .bar-fill-15 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 5.65s forwards;
+    }
+    @keyframes growBar {
+      0% { transform: scaleX(0); }
+      100% { transform: scaleX(1); }
+    }
+  </style>
+  
+    <rect x="0" y="0" width="560" height="352" fill="#282a36"/>
+  <g>
+    <text x="16" y="26" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Acme Corp — Q4 Results</text>
+    <text x="16" y="46" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="16" y="66" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Revenue          $4.2M  ↑ 23%</text>
+    <g class="line-3">
+      <rect x="16" y="78" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-3" x="16" y="78" width="449" height="8" rx="4" fill="#50fa7b" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="106" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4"></text>
+    <text x="16" y="126" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">Active Users       18K  ↑ 41%</text>
+    <g class="line-6">
+      <rect x="16" y="138" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-6" x="16" y="138" width="380" height="8" rx="4" fill="#8be9fd" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="166" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7"></text>
+    <text x="16" y="186" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">Churn Rate        1.2%  ↓ 0.3%</text>
+    <g class="line-9">
+      <rect x="16" y="198" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-9" x="16" y="198" width="63" height="8" rx="4" fill="#ff5555" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="226" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-10"></text>
+    <text x="16" y="246" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-11">NPS Score           72  ↑ 8pts</text>
+    <g class="line-12">
+      <rect x="16" y="258" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-12" x="16" y="258" width="380" height="8" rx="4" fill="#bd93f9" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="286" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-13"></text>
+    <text x="16" y="306" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-14">Uptime          99.97%</text>
+    <g class="line-15">
+      <rect x="16" y="318" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-15" x="16" y="318" width="523" height="8" rx="4" fill="#50fa7b" opacity="0.85"/>
+      
+    </g>
+  </g>
+  
+  <text x="552" y="346" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

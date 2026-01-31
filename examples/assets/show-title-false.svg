@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.39s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.80s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.39s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.87s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.33s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="140" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="140" fill="#0a0a0b"/>
+    </g>
+    <rect x="0" y="0" width="560" height="140" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+  
+  <g>
+    <text x="20" y="30" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ cat .env.example</text>
+    <text x="20" y="50" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">DATABASE_URL=postgresql://...</text>
+    <text x="20" y="70" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">REDIS_URL=redis://localhost:6379</text>
+    <text x="20" y="90" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">API_KEY=your-key-here</text>
+    <text x="20" y="110" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">JWT_SECRET=change-me</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="118" width="8" height="15" rx="1"/>
+  <text x="552" y="134" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

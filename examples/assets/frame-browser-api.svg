@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 282" width="560" height="282">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.35s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="browser-clip">
+        <rect x="0" y="0" width="560" height="282" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#browser-clip)">
+      <rect x="0" y="0" width="560" height="282" fill="#2e3440"/>
+    <rect x="0" y="0" width="560" height="42" rx="10" ry="0" fill="#272c36"/>
+    <rect x="0" y="10" width="560" height="32" fill="#272c36"/>
+
+    <circle cx="18" cy="18" r="6" fill="#bf616a"/>
+    <circle cx="38" cy="18" r="6" fill="#ebcb8b"/>
+    <circle cx="58" cy="18" r="6" fill="#a3be8c"/>
+
+    <rect x="80" y="10" width="460" height="22" rx="6" fill="#2e3440" opacity="0.5"/>
+    <text x="280" y="25" text-anchor="middle" fill="#81a1c1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="11" opacity="0.7">api.myapp.com/docs</text>
+
+    <line x1="0" y1="42" x2="560" y2="42" stroke="#2e3440" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="282" rx="10" ry="10" fill="none" stroke="#272c36" stroke-width="1" opacity="0.5"/>
+  <g>
+    <text x="20" y="72" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">GET    /api/users          List all users</text>
+    <text x="20" y="92" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">POST   /api/users          Create a user</text>
+    <text x="20" y="112" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">GET    /api/users/:id      Get user by ID</text>
+    <text x="20" y="132" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">PUT    /api/users/:id      Update user</text>
+    <text x="20" y="152" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">DELETE /api/users/:id      Delete user</text>
+    <text x="20" y="172" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5"></text>
+    <text x="20" y="192" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">GET    /api/projects       List projects</text>
+    <text x="20" y="212" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">POST   /api/projects       Create project</text>
+    <text x="20" y="232" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8"></text>
+    <text x="20" y="252" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-9">✔ All endpoints authenticated via Bearer token</text>
+  </g>
+  
+  <text x="552" y="276" text-anchor="end" fill="#d8dee9" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg>

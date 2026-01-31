@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 340" width="830" height="340">
+  <style>
+    
+    .b2-slide-left {
+      opacity: 0;
+      animation: b2-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b2-slide-right {
+      opacity: 0;
+      animation: b2-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b2-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b2-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b2-scroll-up {
+      animation: b2-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b2-scroll-down {
+      transform: translateY(-220px);
+      animation: b2-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b2-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-220px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b2-scrollDown {
+      0%, 5% { transform: translateY(-220px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-220px); }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="830" height="340" rx="12" ry="12" fill="#1e1e2e" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="830" height="340" rx="12" ry="12" fill="none" stroke="#cdd6f4" stroke-width="0.5" opacity="0.1"/>
+    <text x="415" y="26" text-anchor="middle" fill="#a6adc8" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13" font-weight="600">Project Health</text>
+    <line x1="0" y1="40" x2="830" y2="40" stroke="#cdd6f4" stroke-width="0.5" opacity="0.1"/>
+  
+    <defs>
+      <clipPath id="b2-clip-0">
+        <rect x="24" y="60" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b2-slide-left">
+      <g clip-path="url(#b2-clip-0)">
+        <rect x="24" y="60" width="383" height="252" rx="10" fill="#585b70" opacity="0.15"/>
+        <g class="b2-scroll-up">
+          <g transform="translate(24, 60)">
+            <text x="20" y="31" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Performance</text>
+          <text x="20" y="53" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Lighthouse Score     98/100</text>
+          <text x="20" y="97" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">First Paint          0.8s</text>
+          <text x="20" y="119" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bundle Size          12 kB</text>
+          <text x="20" y="141" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Dependencies              3</text>
+          <text x="20" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Weekly Downloads      2.4K</text>
+          <text x="20" y="185" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GitHub Stars            480</text>
+          <text x="20" y="207" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open Issues               2</text>
+          <text x="20" y="229" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Test Coverage           94%</text>
+          <text x="20" y="251" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Performance</text>
+          <text x="20" y="273" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Lighthouse Score     98/100</text>
+          <text x="20" y="317" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">First Paint          0.8s</text>
+          <text x="20" y="339" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bundle Size          12 kB</text>
+          <text x="20" y="361" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Dependencies              3</text>
+          <text x="20" y="383" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Weekly Downloads      2.4K</text>
+          <text x="20" y="405" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GitHub Stars            480</text>
+          <text x="20" y="427" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open Issues               2</text>
+          <text x="20" y="449" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Test Coverage           94%</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b2-clip-1">
+        <rect x="423" y="60" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b2-slide-right">
+      <g clip-path="url(#b2-clip-1)">
+        <rect x="423" y="60" width="383" height="252" rx="10" fill="#585b70" opacity="0.15"/>
+        <g class="b2-scroll-down">
+          <g transform="translate(423, 60)">
+            <text x="20" y="31" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Roadmap 2025</text>
+          <text x="20" y="53" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Frame system (5 types)</text>
+          <text x="20" y="97" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Bento grid layout</text>
+          <text x="20" y="119" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Custom fonts &amp; prefix</text>
+          <text x="20" y="141" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Theme editor (visual)</text>
+          <text x="20" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  prefers-color-scheme</text>
+          <text x="20" y="185" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Export to PNG / video</text>
+          <text x="20" y="207" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  VS Code extension</text>
+          <text x="20" y="229" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Plugin API for frames</text>
+          <text x="20" y="251" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Roadmap 2025</text>
+          <text x="20" y="273" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Frame system (5 types)</text>
+          <text x="20" y="317" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Bento grid layout</text>
+          <text x="20" y="339" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Custom fonts &amp; prefix</text>
+          <text x="20" y="361" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Theme editor (visual)</text>
+          <text x="20" y="383" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  prefers-color-scheme</text>
+          <text x="20" y="405" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Export to PNG / video</text>
+          <text x="20" y="427" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  VS Code extension</text>
+          <text x="20" y="449" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Plugin API for frames</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="334" text-anchor="end" fill="#cdd6f4" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg>

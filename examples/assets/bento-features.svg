@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 300" width="830" height="300">
+  <style>
+    
+    .b1-slide-left {
+      opacity: 0;
+      animation: b1-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b1-slide-right {
+      opacity: 0;
+      animation: b1-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b1-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b1-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b1-scroll-up {
+      animation: b1-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b1-scroll-down {
+      transform: translateY(-220px);
+      animation: b1-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b1-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-220px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b1-scrollDown {
+      0%, 5% { transform: translateY(-220px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-220px); }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="830" height="300" rx="12" ry="12" fill="#0a0a0b" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="830" height="300" rx="12" ry="12" fill="none" stroke="#e4e4e7" stroke-width="0.5" opacity="0.1"/>
+    
+  
+    <defs>
+      <clipPath id="b1-clip-0">
+        <rect x="24" y="20" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b1-slide-left">
+      <g clip-path="url(#b1-clip-0)">
+        <rect x="24" y="20" width="383" height="252" rx="10" fill="#27272a" opacity="0.15"/>
+        <g class="b1-scroll-up">
+          <g transform="translate(24, 20)">
+            <text x="20" y="31" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Developers</text>
+          <text x="20" y="53" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Auto-generates SVGs from README</text>
+          <text x="20" y="97" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Pure CSS animations, zero JS</text>
+          <text x="20" y="119" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Works on GitHub, GitLab, npm</text>
+          <text x="20" y="141" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">5 frames: terminal, card,</text>
+          <text x="20" y="163" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  browser, mobile, none</text>
+          <text x="20" y="185" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bento grid layout</text>
+          <text x="20" y="207" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">4 built-in color themes</text>
+          <text x="20" y="229" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Watch mode with hot reload</text>
+          <text x="20" y="251" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Developers</text>
+          <text x="20" y="273" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Auto-generates SVGs from README</text>
+          <text x="20" y="317" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Pure CSS animations, zero JS</text>
+          <text x="20" y="339" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Works on GitHub, GitLab, npm</text>
+          <text x="20" y="361" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">5 frames: terminal, card,</text>
+          <text x="20" y="383" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  browser, mobile, none</text>
+          <text x="20" y="405" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bento grid layout</text>
+          <text x="20" y="427" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">4 built-in color themes</text>
+          <text x="20" y="449" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Watch mode with hot reload</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b1-clip-1">
+        <rect x="423" y="20" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b1-slide-right">
+      <g clip-path="url(#b1-clip-1)">
+        <rect x="423" y="20" width="383" height="252" rx="10" fill="#27272a" opacity="0.15"/>
+        <g class="b1-scroll-down">
+          <g transform="translate(423, 20)">
+            <text x="20" y="31" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Teams</text>
+          <text x="20" y="53" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent README branding</text>
+          <text x="20" y="97" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No design tools needed</text>
+          <text x="20" y="119" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Version-controlled animations</text>
+          <text x="20" y="141" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">One command to update all</text>
+          <text x="20" y="163" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">CI/CD friendly (npx dev-reel)</text>
+          <text x="20" y="185" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Customizable prefix &amp; fonts</text>
+          <text x="20" y="207" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Mobile &amp; browser mockups</text>
+          <text x="20" y="229" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open source, MIT license</text>
+          <text x="20" y="251" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Teams</text>
+          <text x="20" y="273" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent README branding</text>
+          <text x="20" y="317" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No design tools needed</text>
+          <text x="20" y="339" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Version-controlled animations</text>
+          <text x="20" y="361" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">One command to update all</text>
+          <text x="20" y="383" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">CI/CD friendly (npx dev-reel)</text>
+          <text x="20" y="405" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Customizable prefix &amp; fonts</text>
+          <text x="20" y="427" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Mobile &amp; browser mockups</text>
+          <text x="20" y="449" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open source, MIT license</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="294" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg>

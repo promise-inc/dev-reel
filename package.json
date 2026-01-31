@@ -1,0 +1,56 @@
+{
+  "name": "@promise-inc/dev-reel",
+  "version": "1.0.0",
+  "description": "Generate animated SVG terminal previews from your README.md — pure SVG, no JavaScript, GitHub-compatible.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "dev-reel": "dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "svg",
+    "terminal",
+    "animation",
+    "readme",
+    "preview",
+    "cli",
+    "dev-reel",
+    "open-source",
+    "github",
+    "markdown"
+  ],
+  "author": "Promise Inc. <hello@promise.codes> (https://promise.codes)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicholasess/dev-reel"
+  },
+  "homepage": "https://github.com/nicholasess/dev-reel#readme",
+  "bugs": {
+    "url": "https://github.com/nicholasess/dev-reel/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "yaml": "^2.6.1",
+    "chalk": "^5.4.1",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
