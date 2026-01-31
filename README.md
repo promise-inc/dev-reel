@@ -263,6 +263,7 @@ npx dev-reel build --watch # regenerate on README change
 | Package | Description |
 |---------|-------------|
 | [`@promise-inc/ai-guard`](https://www.npmjs.com/package/@promise-inc/ai-guard) | Detect AI-generated code patterns |
+| [`@promise-inc/fs-guard`](https://www.npmjs.com/package/@promise-inc/fs-guard) | File system protection and validation |
 | [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) | Logger with automatic context |
 | [`@promise-inc/ui-states`](https://www.npmjs.com/package/@promise-inc/ui-states) | Auto-skeleton from real DOM |
 
