@@ -4,7 +4,7 @@
 Animated SVG previews for open-source projects — zero JS, zero canvas, GitHub-native.
 
 <p align="center">
-  <img src="./examples/assets/terminal-default.svg" alt="dev-reel demo" width="700" />
+  <img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/terminal-default.svg" alt="dev-reel demo" width="700" />
 </p>
 
 ---
@@ -25,31 +25,31 @@ Just **pure SVG**, beautifully animated, rendered natively by GitHub.
 
 ### Terminal (default)
 
-<img src="./examples/assets/terminal-default.svg" alt="terminal frame" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/terminal-default.svg" alt="terminal frame" width="600" />
 
 > macOS-style terminal with traffic light dots and title bar.
 
 ### Card
 
-<img src="./examples/assets/frame-card-changelog.svg" alt="card frame" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/frame-card-changelog.svg" alt="card frame" width="600" />
 
 > Clean rounded card with subtle shadow. Great for changelogs and feature lists.
 
 ### Browser
 
-<img src="./examples/assets/frame-browser-api.svg" alt="browser frame" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/frame-browser-api.svg" alt="browser frame" width="600" />
 
 > Address bar with navigation dots. Perfect for API docs and web content.
 
 ### Mobile
 
-<img src="./examples/assets/frame-mobile-notifications.svg" alt="mobile frame" width="430" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/frame-mobile-notifications.svg" alt="mobile frame" width="430" />
 
 > iPhone-style mockup with dynamic island, status bar and home indicator. Notification cards slide in from the right.
 
 ### None
 
-<img src="./examples/assets/frame-none-metrics.svg" alt="no frame" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/frame-none-metrics.svg" alt="no frame" width="600" />
 
 > No chrome, just content. Metrics dashboard with animated bar charts.
 
@@ -61,19 +61,19 @@ Two-panel layout with synchronized scroll animation — panels scroll in opposit
 
 ### Features Showcase
 
-<img src="./examples/assets/bento-features.svg" alt="bento features" width="830" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-features.svg" alt="bento features" width="830" />
 
 ### Metrics + Roadmap
 
-<img src="./examples/assets/bento-metrics-roadmap.svg" alt="bento metrics" width="830" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-metrics-roadmap.svg" alt="bento metrics" width="830" />
 
 ### Before / After
 
-<img src="./examples/assets/bento-before-after.svg" alt="bento before after" width="830" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-before-after.svg" alt="bento before after" width="830" />
 
 ### Browser + API Docs
 
-<img src="./examples/assets/bento-browser-api.svg" alt="bento browser api" width="830" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-browser-api.svg" alt="bento browser api" width="830" />
 
 ---
 
@@ -85,7 +85,7 @@ Two-panel layout with synchronized scroll animation — panels scroll in opposit
 width: 830  # fixed width (default: auto, 560-900px)
 ```
 
-<img src="./examples/assets/width-830-progress.svg" alt="custom width" width="830" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/width-830-progress.svg" alt="custom width" width="830" />
 
 ### Prefix
 
@@ -93,7 +93,7 @@ width: 830  # fixed width (default: auto, 560-900px)
 prefix: ">"  # custom command prefix (default: "$")
 ```
 
-<img src="./examples/assets/prefix-sql-query.svg" alt="custom prefix" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/prefix-sql-query.svg" alt="custom prefix" width="600" />
 
 ### Raw Mode
 
@@ -101,7 +101,7 @@ prefix: ">"  # custom command prefix (default: "$")
 raw: true  # disables auto line-type detection, all lines are plain text
 ```
 
-<img src="./examples/assets/raw-tech-stack.svg" alt="raw mode" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/raw-tech-stack.svg" alt="raw mode" width="600" />
 
 ### Cursor
 
@@ -109,7 +109,7 @@ raw: true  # disables auto line-type detection, all lines are plain text
 cursor: false  # hides the blinking cursor
 ```
 
-<img src="./examples/assets/cursor-false-status.svg" alt="cursor false" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/cursor-false-status.svg" alt="cursor false" width="600" />
 
 ### Show Title
 
@@ -117,7 +117,7 @@ cursor: false  # hides the blinking cursor
 show-title: false  # hides the title bar
 ```
 
-<img src="./examples/assets/show-title-false.svg" alt="no title" width="600" />
+<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/show-title-false.svg" alt="no title" width="600" />
 
 ---
 
