@@ -1,4 +1,4 @@
-# dev-reel
+# @promise-inc/dev-reel
 
 **Turn your README into a cinematic dev showcase.**
 Animated SVG previews for open-source projects — zero JS, zero canvas, GitHub-native.
