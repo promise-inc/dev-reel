@@ -28,17 +28,23 @@
     "dev-reel",
     "open-source",
     "github",
-    "markdown"
+    "markdown",
+    "screenshot",
+    "demo",
+    "css-animation",
+    "devtools",
+    "developer-tools",
+    "promise-inc"
   ],
   "author": "Promise Inc. <hello@promise.codes> (https://promise.codes)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicholasess/dev-reel"
+    "url": "git+https://github.com/promise-inc/dev-reel.git"
   },
-  "homepage": "https://github.com/nicholasess/dev-reel#readme",
+  "homepage": "https://promise.codes/open-source/dev-reel",
   "bugs": {
-    "url": "https://github.com/nicholasess/dev-reel/issues"
+    "url": "https://github.com/promise-inc/dev-reel/issues"
   },
   "engines": {
     "node": ">=18"

@@ -7,17 +7,16 @@ Animated SVG previews for open-source projects — zero JS, zero canvas, GitHub-
   <img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/terminal-default.svg" alt="dev-reel demo" width="700" />
 </p>
 
----
+## Why?
 
-## What is dev-reel?
+README screenshots are static, GIFs are heavy, and videos don't render on GitHub:
 
-dev-reel generates **animated SVG previews** directly from your `README.md`.
+- Screenshots go stale the moment you ship
+- GIFs are huge files with bad quality
+- Videos require external hosting
+- None of them are version-control friendly
 
-No screenshots. No GIFs. No videos.
-
-Just **pure SVG**, beautifully animated, rendered natively by GitHub.
-
----
+`dev-reel` generates **animated SVG previews** directly from your README — pure CSS, zero JavaScript, rendered natively by GitHub.
 
 ## Frames
 
@@ -45,15 +44,13 @@ Just **pure SVG**, beautifully animated, rendered natively by GitHub.
 
 <img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/frame-mobile-notifications.svg" alt="mobile frame" width="430" />
 
-> iPhone-style mockup with dynamic island, status bar and home indicator. Notification cards slide in from the right.
+> iPhone-style mockup with dynamic island, status bar and home indicator.
 
 ### None
 
 <img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/frame-none-metrics.svg" alt="no frame" width="600" />
 
 > No chrome, just content. Metrics dashboard with animated bar charts.
-
----
 
 ## Bento Grid Layout
 
@@ -63,96 +60,9 @@ Two-panel layout with synchronized scroll animation — panels scroll in opposit
 
 <img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-features.svg" alt="bento features" width="830" />
 
-### Metrics + Roadmap
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-metrics-roadmap.svg" alt="bento metrics" width="830" />
-
 ### Before / After
 
 <img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-before-after.svg" alt="bento before after" width="830" />
-
-### Browser + API Docs
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/bento-browser-api.svg" alt="bento browser api" width="830" />
-
----
-
-## Customization
-
-### Width
-
-```yaml
-width: 830  # fixed width (default: auto, 560-900px)
-```
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/width-830-progress.svg" alt="custom width" width="830" />
-
-### Prefix
-
-```yaml
-prefix: ">"  # custom command prefix (default: "$")
-```
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/prefix-sql-query.svg" alt="custom prefix" width="600" />
-
-### Raw Mode
-
-```yaml
-raw: true  # disables auto line-type detection, all lines are plain text
-```
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/raw-tech-stack.svg" alt="raw mode" width="600" />
-
-### Cursor
-
-```yaml
-cursor: false  # hides the blinking cursor
-```
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/cursor-false-status.svg" alt="cursor false" width="600" />
-
-### Show Title
-
-```yaml
-show-title: false  # hides the title bar
-```
-
-<img src="https://raw.githubusercontent.com/promise-inc/dev-reel/main/examples/assets/show-title-false.svg" alt="no title" width="600" />
-
----
-
-## Animations
-
-All animations are **pure CSS** — zero JavaScript, GitHub-compatible.
-
-| Animation | Description |
-|-----------|-------------|
-| `typing` | Lines appear one by one with delay |
-| `blink-cursor` | Classic terminal cursor blink |
-| `fade-lines` | Progressive opacity reveal |
-| `scanline` | CRT-style horizontal scan line |
-| `wave` | Subtle vertical oscillation per line |
-| `pulse-error` | Error lines pulse in and out |
-| `glow-success` | Success lines glow softly |
-| `noise-overlay` | CRT noise texture overlay |
-| `progress-bar` | Animated loading bar for `[===]` lines |
-| `grow-bars` | Bar charts grow from left to right |
-| `slide-cards` | Notification cards slide in from right |
-
----
-
-## Themes
-
-4 built-in themes inspired by modern dev tooling.
-
-| Theme | Style |
-|-------|-------|
-| `promise-inc` (default) | Dark with purple/green accents |
-| `dracula` | Classic Dracula palette |
-| `nord` | Cool blue Nordic tones |
-| `catppuccin-mocha` | Warm pastel Catppuccin |
-
----
 
 ## How it works
 
@@ -166,9 +76,6 @@ animation:
   - typing
   - blink-cursor
 frame: terminal
-width: auto
-cursor: true
-prefix: "$"
 
 $ npm install my-project
 ✔ added 1 package in 0.8s
@@ -191,7 +98,34 @@ npx dev-reel
 - Saves to `/assets`
 - Replaces blocks with image references
 
----
+## Animations
+
+All animations are **pure CSS** — zero JavaScript, GitHub-compatible.
+
+| Animation | Description |
+|-----------|-------------|
+| `typing` | Lines appear one by one with delay |
+| `blink-cursor` | Classic terminal cursor blink |
+| `fade-lines` | Progressive opacity reveal |
+| `scanline` | CRT-style horizontal scan line |
+| `wave` | Subtle vertical oscillation per line |
+| `pulse-error` | Error lines pulse in and out |
+| `glow-success` | Success lines glow softly |
+| `noise-overlay` | CRT noise texture overlay |
+| `progress-bar` | Animated loading bar for `[===]` lines |
+| `grow-bars` | Bar charts grow from left to right |
+| `slide-cards` | Notification cards slide in from right |
+
+## Themes
+
+4 built-in themes inspired by modern dev tooling.
+
+| Theme | Style |
+|-------|-------|
+| `promise-inc` (default) | Dark with purple/green accents |
+| `dracula` | Classic Dracula palette |
+| `nord` | Cool blue Nordic tones |
+| `catppuccin-mocha` | Warm pastel Catppuccin |
 
 ## Frontmatter Reference
 
@@ -211,24 +145,6 @@ npx dev-reel
 | `font-size` | number | `13` | Font size in pixels |
 | `watermark` | boolean | `true` | Show `@promise-inc/dev-reel` watermark |
 
----
-
-## Line Types
-
-dev-reel automatically detects line types by prefix (unless `raw: true`):
-
-| Prefix | Type | Color |
-|--------|------|-------|
-| `$` (or custom prefix) | Command | Accent |
-| `✔` / `OK` / `✅` | Success | Green |
-| `✖` / `ERROR` / `❌` | Error | Red |
-| `⚠` / `WARN` / `❗` | Warning | Yellow |
-| `[===...]` | Progress bar | Accent |
-| *(notification type)* | Notification card | Custom dot color |
-| *(bar type)* | Horizontal bar chart | Custom bar color |
-
----
-
 ## CLI Usage
 
 ```bash
@@ -237,16 +153,12 @@ npx dev-reel build         # explicit build command
 npx dev-reel build --watch # regenerate on README change
 ```
 
----
-
 ## GitHub Actions
 
 ```yaml
 - name: Update Dev Reel
   run: npx dev-reel
 ```
-
----
 
 ## Why SVG?
 
@@ -256,23 +168,37 @@ npx dev-reel build --watch # regenerate on README change
 - Version-control friendly
 - Works on GitHub, GitLab, npm
 
----
+## Web Version
 
-## Other Packages by Promise Inc
+Don't want to use the CLI? Try the **web version** at [promise.codes/code-to-reel](https://promise.codes/code-to-reel) — generate previews directly in your browser with:
+
+- **Static PNG** export
+- **Animated SVG** export
+- **WebM video** download
+- Full configuration UI (themes, frames, animations, fonts)
+
+## How to report bugs
+
+To report a bug, please first read our guide on [opening issues](https://github.com/promise-inc/dev-reel/issues).
+
+## How to contribute code
+
+To open a pull request, please first read our guide on [opening pull requests](https://github.com/promise-inc/dev-reel/pulls), which outlines our process for RFCs and pull requests.
+
+## Also by Promise Inc.
 
 | Package | Description |
 |---------|-------------|
-| [`@promise-inc/ai-guard`](https://www.npmjs.com/package/@promise-inc/ai-guard) | Detect AI-generated code patterns |
-| [`@promise-inc/fs-guard`](https://www.npmjs.com/package/@promise-inc/fs-guard) | File system protection and validation |
-| [`@promise-inc/devlog`](https://www.npmjs.com/package/@promise-inc/devlog) | Logger with automatic context |
-| [`@promise-inc/ui-states`](https://www.npmjs.com/package/@promise-inc/ui-states) | Auto-skeleton from real DOM |
-
----
-
-## License
-
-MIT — see [LICENSE](./LICENSE)
+| [`@promise-inc/ai-guard`](https://github.com/promise-inc/ai-guard) | Detect AI-generated code patterns |
+| [`@promise-inc/ps-guard`](https://github.com/promise-inc/ps-guard) | Lighthouse-based performance guard |
+| [`@promise-inc/fs-guard`](https://github.com/promise-inc/fs-guard) | Validate project folder and file structure |
+| [`@promise-inc/devlog`](https://github.com/promise-inc/devlog) | Logger with automatic context (file + line) |
+| [`@promise-inc/ui-states`](https://github.com/promise-inc/ui-states) | Auto-generated skeleton loading states |
 
 ---
 
 Developed by [Promise Inc.](https://promise.codes)
+
+## License
+
+MIT © [Promise Inc.](https://promise.codes)
