@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>dev-reel preview — #14</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0e1116; color: #fff; }
+    }
+    @media (prefers-color-scheme: light) {
+      body { background: #ffffff; color: #111; }
+    }
+    body {
+      font-family: 'Inter', -apple-system, system-ui, sans-serif;
+      padding: 48px 24px 96px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container { max-width: 900px; width: 100%; }
+    h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+    .sub { font-size: 13px; opacity: 0.4; margin-bottom: 48px; }
+    section { margin-bottom: 48px; }
+    .label { font-size: 13px; opacity: 0.5; margin-bottom: 16px; letter-spacing: 0.02em; }
+    .svg-wrap { display: flex; justify-content: center; }
+    .svg-wrap svg { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>dev-reel preview</h1>
+    <p class="sub">#14 of 14 — 14 approved</p>
+    
+  <!-- #1 Terminal (default) — typing + blink-cursor [APPROVED] -->
+  <section id="item-1" style="display:none">
+    <p class="label">#1 — Terminal (default) — typing + blink-cursor</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 256" width="560" height="256">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.35s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.83s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.38s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.90s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.31s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.89s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.36s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.87s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 4.38s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="256" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="256" fill="#0a0a0b"/>
+      <rect x="0" y="0" width="560" height="36" fill="#111113"/>
+      <line x1="0" y1="36" x2="560" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="256" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="6" fill="#eab308"/>
+    <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+    <text x="280" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">npm install</text>
+  
+  <g>
+    <text x="20" y="66" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ npm install @promise-inc/dev-reel</text>
+    <text x="20" y="86" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">✔ added 1 package in 0.8s</text>
+    <text x="20" y="106" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2"></text>
+    <text x="20" y="126" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">$ npx dev-reel</text>
+    <text x="20" y="146" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ Found 3 dev-reel blocks</text>
+    <text x="20" y="166" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ Generated assets/dev-reel-1.svg</text>
+    <text x="20" y="186" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">✔ Generated assets/dev-reel-2.svg</text>
+    <text x="20" y="206" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">✔ Generated assets/dev-reel-3.svg</text>
+    <text x="20" y="226" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">✔ README.md updated</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="234" width="8" height="15" rx="1"/>
+  <text x="552" y="250" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #2 Frame: none — metricas [APPROVED] -->
+  <section id="item-2" style="display:none">
+    <p class="label">#2 — Frame: none — metricas</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 352" width="560" height="352">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.35s forwards;
+    }
+    .line-10 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.70s forwards;
+    }
+    .line-11 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.05s forwards;
+    }
+    .line-12 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.40s forwards;
+    }
+    .line-13 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.75s forwards;
+    }
+    .line-14 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.10s forwards;
+    }
+    .line-15 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.45s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .bar-fill-3 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 1.45s forwards;
+    }
+    .bar-fill-6 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 2.50s forwards;
+    }
+    .bar-fill-9 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 3.55s forwards;
+    }
+    .bar-fill-12 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 4.60s forwards;
+    }
+    .bar-fill-15 {
+      transform: scaleX(0);
+      transform-origin: left center;
+      animation: growBar 0.8s ease-out 5.65s forwards;
+    }
+    @keyframes growBar {
+      0% { transform: scaleX(0); }
+      100% { transform: scaleX(1); }
+    }
+  </style>
+  
+    <rect x="0" y="0" width="560" height="352" fill="#282a36"/>
+  <g>
+    <text x="16" y="26" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Acme Corp — Q4 Results</text>
+    <text x="16" y="46" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="16" y="66" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Revenue          $4.2M  ↑ 23%</text>
+    <g class="line-3">
+      <rect x="16" y="78" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-3" x="16" y="78" width="449" height="8" rx="4" fill="#50fa7b" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="106" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4"></text>
+    <text x="16" y="126" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">Active Users       18K  ↑ 41%</text>
+    <g class="line-6">
+      <rect x="16" y="138" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-6" x="16" y="138" width="380" height="8" rx="4" fill="#8be9fd" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="166" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7"></text>
+    <text x="16" y="186" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">Churn Rate        1.2%  ↓ 0.3%</text>
+    <g class="line-9">
+      <rect x="16" y="198" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-9" x="16" y="198" width="63" height="8" rx="4" fill="#ff5555" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="226" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-10"></text>
+    <text x="16" y="246" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-11">NPS Score           72  ↑ 8pts</text>
+    <g class="line-12">
+      <rect x="16" y="258" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-12" x="16" y="258" width="380" height="8" rx="4" fill="#bd93f9" opacity="0.85"/>
+      
+    </g>
+    <text x="16" y="286" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-13"></text>
+    <text x="16" y="306" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-14">Uptime          99.97%</text>
+    <g class="line-15">
+      <rect x="16" y="318" width="528" height="8" rx="4" fill="#44475a"/>
+      <rect class="bar-fill bar-fill-15" x="16" y="318" width="523" height="8" rx="4" fill="#50fa7b" opacity="0.85"/>
+      
+    </g>
+  </g>
+  
+  <text x="552" y="346" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #3 Frame: card — changelog catppuccin [APPROVED] -->
+  <section id="item-3" style="display:none">
+    <p class="label">#3 — Frame: card — changelog catppuccin</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 268" width="560" height="268">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.36s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.86s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.40s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.84s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.35s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.88s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.38s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.86s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 4.34s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes glowSuccess {
+      0%, 100% { filter: drop-shadow(0 0 0px #a6e3a100); }
+      50% { filter: drop-shadow(0 0 4px #a6e3a188); }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="560" height="268" rx="12" ry="12" fill="#1e1e2e" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="560" height="268" rx="12" ry="12" fill="none" stroke="#cdd6f4" stroke-width="0.5" opacity="0.1"/>
+    <text x="280" y="26" text-anchor="middle" fill="#a6adc8" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13" font-weight="600">Changelog v2.0</text>
+    <line x1="0" y1="40" x2="560" y2="40" stroke="#cdd6f4" stroke-width="0.5" opacity="0.1"/>
+  <g>
+    <text x="24" y="74" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">What’s New in v2.0</text>
+    <text x="24" y="94" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="24" y="114" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">✔ Dark mode support</text>
+    <text x="24" y="134" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">✔ Multi-language (12 languages)</text>
+    <text x="24" y="154" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ Offline-first with sync</text>
+    <text x="24" y="174" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ Redesigned dashboard</text>
+    <text x="24" y="194" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">✔ API v2 with GraphQL</text>
+    <text x="24" y="214" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">✔ 60% faster load times</text>
+    <text x="24" y="234" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">⚠ Deprecated: REST v1 (sunset March)</text>
+  </g>
+  
+  <text x="552" y="262" text-anchor="end" fill="#cdd6f4" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #4 Frame: browser — API docs nord [APPROVED] -->
+  <section id="item-4" style="display:none">
+    <p class="label">#4 — Frame: browser — API docs nord</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 282" width="560" height="282">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.35s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="browser-clip">
+        <rect x="0" y="0" width="560" height="282" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#browser-clip)">
+      <rect x="0" y="0" width="560" height="282" fill="#2e3440"/>
+    <rect x="0" y="0" width="560" height="42" rx="10" ry="0" fill="#272c36"/>
+    <rect x="0" y="10" width="560" height="32" fill="#272c36"/>
+
+    <circle cx="18" cy="18" r="6" fill="#bf616a"/>
+    <circle cx="38" cy="18" r="6" fill="#ebcb8b"/>
+    <circle cx="58" cy="18" r="6" fill="#a3be8c"/>
+
+    <rect x="80" y="10" width="460" height="22" rx="6" fill="#2e3440" opacity="0.5"/>
+    <text x="280" y="25" text-anchor="middle" fill="#81a1c1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="11" opacity="0.7">api.myapp.com/docs</text>
+
+    <line x1="0" y1="42" x2="560" y2="42" stroke="#2e3440" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="282" rx="10" ry="10" fill="none" stroke="#272c36" stroke-width="1" opacity="0.5"/>
+  <g>
+    <text x="20" y="72" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">GET    /api/users          List all users</text>
+    <text x="20" y="92" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">POST   /api/users          Create a user</text>
+    <text x="20" y="112" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">GET    /api/users/:id      Get user by ID</text>
+    <text x="20" y="132" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">PUT    /api/users/:id      Update user</text>
+    <text x="20" y="152" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">DELETE /api/users/:id      Delete user</text>
+    <text x="20" y="172" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5"></text>
+    <text x="20" y="192" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">GET    /api/projects       List projects</text>
+    <text x="20" y="212" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">POST   /api/projects       Create project</text>
+    <text x="20" y="232" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8"></text>
+    <text x="20" y="252" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-9">✔ All endpoints authenticated via Bearer token</text>
+  </g>
+  
+  <text x="552" y="276" text-anchor="end" fill="#d8dee9" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #5 Frame: mobile — notifications [APPROVED] -->
+  <section id="item-5" style="display:none">
+    <p class="label">#5 — Frame: mobile — notifications</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 654" width="400" height="654">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    .line-9 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.35s forwards;
+    }
+    .line-10 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.70s forwards;
+    }
+    .line-11 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.05s forwards;
+    }
+    .line-12 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.40s forwards;
+    }
+    .line-13 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 4.75s forwards;
+    }
+    .line-14 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.10s forwards;
+    }
+    .line-15 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 5.45s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    .notif-card-2 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 0.80s forwards;
+    }
+    .notif-card-4 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 1.30s forwards;
+    }
+    .notif-card-6 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 1.80s forwards;
+    }
+    .notif-card-8 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 2.30s forwards;
+    }
+    .notif-card-13 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 3.55s forwards;
+    }
+    .notif-card-15 {
+      opacity: 0;
+      transform: translateX(40px);
+      animation: slideCard 0.5s ease-out 4.05s forwards;
+    }
+    @keyframes slideCard {
+      0% { opacity: 0; transform: translateX(40px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="mobile-clip">
+        <rect x="0" y="0" width="400" height="654" rx="44" ry="44"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#mobile-clip)">
+      <rect x="0" y="0" width="400" height="654" fill="#0a0a0b"/>
+    <rect x="140" y="10" width="120" height="34" rx="17" ry="17" fill="#000"/>
+    <text x="28" y="30" fill="#e4e4e7" font-family="'SF Pro Display','Inter',-apple-system,system-ui,sans-serif" font-size="14" font-weight="600" opacity="0.9">9:41</text>
+    <g transform="translate(324, 18)" opacity="0.9">
+      <rect x="0" y="2" width="16" height="10" rx="1.5" fill="none" stroke="#e4e4e7" stroke-width="1.2"/>
+      <rect x="1.5" y="3.5" width="11" height="7" rx="0.5" fill="#e4e4e7"/>
+      <rect x="16" y="5" width="1.5" height="4" rx="0.5" fill="#e4e4e7"/>
+      <g transform="translate(24, 0)">
+        <path d="M0 12 L4 2 L8 8 L12 0 L16 12" fill="none" stroke="#e4e4e7" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(48, 0)">
+        <path d="M0 10 C0 10, 4 0, 8 0 C12 0, 16 10, 16 10" fill="none" stroke="#e4e4e7" stroke-width="1.3" stroke-linecap="round"/>
+      </g>
+    </g>
+    <text x="200" y="48" text-anchor="middle" fill="#e4e4e7" font-family="'SF Pro Display','Inter',-apple-system,system-ui,sans-serif" font-size="16" font-weight="600">Notifications</text>
+    </g>
+    <rect x="0" y="0" width="400" height="654" rx="44" ry="44" fill="none" stroke="#e4e4e7" stroke-width="3" opacity="0.12"/>
+    <rect x="133" y="636" width="134" height="5" rx="2.5" fill="#e4e4e7" opacity="0.2"/>
+  <g>
+    <text x="24" y="92" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Today</text>
+    <text x="24" y="120" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <g class="line-2">
+      <g class="notif-card notif-card-2">
+        <rect x="24" y="130" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="152" r="6" fill="#ff6b8a"/>
+        <text x="60" y="156" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Sarah liked your photo • 2m</text>
+      </g>
+    </g>
+    <text x="24" y="176" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3"></text>
+    <g class="line-4">
+      <g class="notif-card notif-card-4">
+        <rect x="24" y="186" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="208" r="6" fill="#8b5cf6"/>
+        <text x="60" y="212" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">New follower: @designlabs • 5m</text>
+      </g>
+    </g>
+    <text x="24" y="232" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5"></text>
+    <g class="line-6">
+      <g class="notif-card notif-card-6">
+        <rect x="24" y="242" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="264" r="6" fill="#f59e0b"/>
+        <text x="60" y="268" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Your order has shipped! • 12m</text>
+      </g>
+    </g>
+    <text x="24" y="288" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7"></text>
+    <g class="line-8">
+      <g class="notif-card notif-card-8">
+        <rect x="24" y="298" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="320" r="6" fill="#10b981"/>
+        <text x="60" y="324" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Payment received: $49.00 • 1h</text>
+      </g>
+    </g>
+    <text x="24" y="344" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-9"></text>
+    <text x="24" y="372" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-10"></text>
+    <text x="24" y="400" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-11">Yesterday</text>
+    <text x="24" y="428" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-12"></text>
+    <g class="line-13">
+      <g class="notif-card notif-card-13">
+        <rect x="24" y="438" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="460" r="6" fill="#3b82f6"/>
+        <text x="60" y="464" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Welcome to the app! • 18h</text>
+      </g>
+    </g>
+    <text x="24" y="484" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-14"></text>
+    <g class="line-15">
+      <g class="notif-card notif-card-15">
+        <rect x="24" y="494" width="352" height="44" rx="10" fill="#27272a" opacity="0.6"/>
+        <circle cx="42" cy="516" r="6" fill="#6366f1"/>
+        <text x="60" y="520" fill="#e4e4e7" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13">Complete your profile • 1d</text>
+      </g>
+    </g>
+  </g>
+  
+  <text x="392" y="648" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #6 Width 830px — progress-bar + deploy [APPROVED] -->
+  <section id="item-6" style="display:none">
+    <p class="label">#6 — Width 830px — progress-bar + deploy</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 216" width="830" height="216">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.36s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.87s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.37s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.87s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.36s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.90s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 3.34s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+    @keyframes progressFill {
+      0% { transform: scaleX(0); }
+      80% { transform: scaleX(1); }
+      100% { transform: scaleX(1); }
+    }
+    .progress-bar-fill {
+      fill: #a78bfa;
+      transform-origin: left center;
+      animation: progressFill 3s ease-out forwards;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="830" height="216" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="830" height="216" fill="#0a0a0b"/>
+      <rect x="0" y="0" width="830" height="36" fill="#111113"/>
+      <line x1="0" y1="36" x2="830" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="830" height="216" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="6" fill="#eab308"/>
+    <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+    <text x="415" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">deploy preview</text>
+  
+  <g>
+    <text x="20" y="66" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ npx vercel --prod</text>
+    <text x="20" y="86" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">Vercel CLI 33.0.0</text>
+    <text x="20" y="106" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Building project...</text>
+    <g class="line-3">
+      <rect x="20" y="117" width="790" height="10" rx="4" fill="#27272a"/>
+      <rect class="progress-bar-fill" x="20" y="117" width="790" height="10" rx="4"/>
+    </g>
+    <text x="20" y="146" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">✔ Build complete</text>
+    <text x="20" y="166" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ Deployed to production</text>
+    <text x="20" y="186" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">✔ https://myapp.vercel.app</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="194" width="8" height="15" rx="1"/>
+  <text x="822" y="210" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #7 cursor: false — system status [APPROVED] -->
+  <section id="item-7" style="display:none">
+    <p class="label">#7 — cursor: false — system status</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 256" width="560" height="256">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    .line-8 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 3.00s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="256" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="256" fill="#0a0a0b"/>
+      <rect x="0" y="0" width="560" height="36" fill="#111113"/>
+      <line x1="0" y1="36" x2="560" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="256" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="6" fill="#eab308"/>
+    <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+    <text x="280" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">system status</text>
+  
+  <g>
+    <text x="20" y="66" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Service Status — All Systems Operational</text>
+    <text x="20" y="86" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1"></text>
+    <text x="20" y="106" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">API Gateway       ● Online     &lt; 45ms</text>
+    <text x="20" y="126" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">Database          ● Online     &lt; 12ms</text>
+    <text x="20" y="146" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">CDN               ● Online     &lt; 8ms</text>
+    <text x="20" y="166" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">Search            ● Online     &lt; 92ms</text>
+    <text x="20" y="186" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">Email Service     ● Online     &lt; 200ms</text>
+    <text x="20" y="206" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7"></text>
+    <text x="20" y="226" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-8">Last incident: 14 days ago</text>
+  </g>
+  
+  <text x="552" y="250" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #8 prefix: > — SQL query [APPROVED] -->
+  <section id="item-8" style="display:none">
+    <p class="label">#8 — prefix: > — SQL query</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 196" width="560" height="196">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="196" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="196" fill="#0a0a0b"/>
+      <rect x="0" y="0" width="560" height="36" fill="#111113"/>
+      <line x1="0" y1="36" x2="560" y2="36" stroke="#0a0a0b" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="560" height="196" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+
+    <circle cx="18" cy="18" r="6" fill="#ef4444"/>
+    <circle cx="38" cy="18" r="6" fill="#eab308"/>
+    <circle cx="58" cy="18" r="6" fill="#22c55e"/>
+
+    <text x="280" y="23" text-anchor="middle" fill="#71717a" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="500">psql — myapp_production</text>
+  
+  <g>
+    <text x="20" y="66" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">&gt; SELECT plan, COUNT(*) FROM users GROUP BY plan;</text>
+    <text x="20" y="86" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">  plan       | count</text>
+    <text x="20" y="106" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">  free       |  8421</text>
+    <text x="20" y="126" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">  pro        |  2105</text>
+    <text x="20" y="146" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">  enterprise |   342</text>
+    <text x="20" y="166" fill="#4ade80" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">✔ 3 rows returned (12ms)</text>
+  </g>
+  
+  <text x="552" y="190" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #9 raw: true — tech stack [APPROVED] -->
+  <section id="item-9" style="display:none">
+    <p class="label">#9 — raw: true — tech stack</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 248" width="560" height="248">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.20s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.55s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 0.90s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.25s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.60s forwards;
+    }
+    .line-5 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 1.95s forwards;
+    }
+    .line-6 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.30s forwards;
+    }
+    .line-7 {
+      opacity: 0;
+      animation: fadeLine 0.8s ease-in-out 2.65s forwards;
+    }
+    @keyframes fadeLine {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="560" height="248" rx="12" ry="12" fill="#282a36" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="560" height="248" rx="12" ry="12" fill="none" stroke="#f8f8f2" stroke-width="0.5" opacity="0.1"/>
+    <text x="280" y="26" text-anchor="middle" fill="#6272a4" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13" font-weight="600">Tech Stack</text>
+    <line x1="0" y1="40" x2="560" y2="40" stroke="#f8f8f2" stroke-width="0.5" opacity="0.1"/>
+  <g>
+    <text x="24" y="74" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">Frontend     React 19 + TypeScript</text>
+    <text x="24" y="94" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">Styling      Tailwind CSS v4</text>
+    <text x="24" y="114" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">Backend      Node.js + Fastify</text>
+    <text x="24" y="134" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">Database     PostgreSQL + Drizzle</text>
+    <text x="24" y="154" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">Cache        Redis</text>
+    <text x="24" y="174" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-5">Search       Meilisearch</text>
+    <text x="24" y="194" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-6">Hosting      Vercel + Railway</text>
+    <text x="24" y="214" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-7">CI/CD        GitHub Actions</text>
+  </g>
+  
+  <text x="552" y="242" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #10 show-title: false [APPROVED] -->
+  <section id="item-10" style="display:none">
+    <p class="label">#10 — show-title: false</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 140" width="560" height="140">
+  <style>
+    
+    .line-0 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.39s forwards;
+    }
+    .line-1 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 0.80s forwards;
+    }
+    .line-2 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.39s forwards;
+    }
+    .line-3 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 1.87s forwards;
+    }
+    .line-4 {
+      opacity: 0;
+      animation: typeLine 0.4s ease-out 2.33s forwards;
+    }
+    @keyframes typeLine {
+      0% { opacity: 0; transform: translateX(-4px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .blink-cursor {
+      fill: #ffffff;
+      animation: blinkCursor 1s step-end infinite;
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="terminal-clip">
+        <rect x="0" y="0" width="560" height="140" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#terminal-clip)">
+      <rect x="0" y="0" width="560" height="140" fill="#0a0a0b"/>
+    </g>
+    <rect x="0" y="0" width="560" height="140" rx="10" ry="10" fill="none" stroke="#111113" stroke-width="1" opacity="0.5"/>
+  
+  <g>
+    <text x="20" y="30" fill="#818cf8" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-0">$ cat .env.example</text>
+    <text x="20" y="50" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-1">DATABASE_URL=postgresql://...</text>
+    <text x="20" y="70" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-2">REDIS_URL=redis://localhost:6379</text>
+    <text x="20" y="90" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-3">API_KEY=your-key-here</text>
+    <text x="20" y="110" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13" class="line-4">JWT_SECRET=change-me</text>
+  </g>
+  <rect class="blink-cursor" x="20" y="118" width="8" height="15" rx="1"/>
+  <text x="552" y="134" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+  
+</svg></div>
+  </section>
+
+  <!-- #11 Bento: features showcase [APPROVED] -->
+  <section id="item-11" style="display:none">
+    <p class="label">#11 — Bento: features showcase</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 300" width="830" height="300">
+  <style>
+    
+    .b1-slide-left {
+      opacity: 0;
+      animation: b1-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b1-slide-right {
+      opacity: 0;
+      animation: b1-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b1-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b1-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b1-scroll-up {
+      animation: b1-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b1-scroll-down {
+      transform: translateY(-220px);
+      animation: b1-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b1-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-220px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b1-scrollDown {
+      0%, 5% { transform: translateY(-220px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-220px); }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="830" height="300" rx="12" ry="12" fill="#0a0a0b" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="830" height="300" rx="12" ry="12" fill="none" stroke="#e4e4e7" stroke-width="0.5" opacity="0.1"/>
+    
+  
+    <defs>
+      <clipPath id="b1-clip-0">
+        <rect x="24" y="20" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b1-slide-left">
+      <g clip-path="url(#b1-clip-0)">
+        <rect x="24" y="20" width="383" height="252" rx="10" fill="#27272a" opacity="0.15"/>
+        <g class="b1-scroll-up">
+          <g transform="translate(24, 20)">
+            <text x="20" y="31" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Developers</text>
+          <text x="20" y="53" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Auto-generates SVGs from README</text>
+          <text x="20" y="97" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Pure CSS animations, zero JS</text>
+          <text x="20" y="119" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Works on GitHub, GitLab, npm</text>
+          <text x="20" y="141" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">5 frames: terminal, card,</text>
+          <text x="20" y="163" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  browser, mobile, none</text>
+          <text x="20" y="185" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bento grid layout</text>
+          <text x="20" y="207" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">4 built-in color themes</text>
+          <text x="20" y="229" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Watch mode with hot reload</text>
+          <text x="20" y="251" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Developers</text>
+          <text x="20" y="273" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Auto-generates SVGs from README</text>
+          <text x="20" y="317" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Pure CSS animations, zero JS</text>
+          <text x="20" y="339" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Works on GitHub, GitLab, npm</text>
+          <text x="20" y="361" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">5 frames: terminal, card,</text>
+          <text x="20" y="383" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  browser, mobile, none</text>
+          <text x="20" y="405" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bento grid layout</text>
+          <text x="20" y="427" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">4 built-in color themes</text>
+          <text x="20" y="449" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Watch mode with hot reload</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b1-clip-1">
+        <rect x="423" y="20" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b1-slide-right">
+      <g clip-path="url(#b1-clip-1)">
+        <rect x="423" y="20" width="383" height="252" rx="10" fill="#27272a" opacity="0.15"/>
+        <g class="b1-scroll-down">
+          <g transform="translate(423, 20)">
+            <text x="20" y="31" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Teams</text>
+          <text x="20" y="53" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent README branding</text>
+          <text x="20" y="97" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No design tools needed</text>
+          <text x="20" y="119" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Version-controlled animations</text>
+          <text x="20" y="141" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">One command to update all</text>
+          <text x="20" y="163" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">CI/CD friendly (npx dev-reel)</text>
+          <text x="20" y="185" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Customizable prefix &amp; fonts</text>
+          <text x="20" y="207" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Mobile &amp; browser mockups</text>
+          <text x="20" y="229" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open source, MIT license</text>
+          <text x="20" y="251" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">For Teams</text>
+          <text x="20" y="273" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent README branding</text>
+          <text x="20" y="317" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No design tools needed</text>
+          <text x="20" y="339" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Version-controlled animations</text>
+          <text x="20" y="361" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">One command to update all</text>
+          <text x="20" y="383" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">CI/CD friendly (npx dev-reel)</text>
+          <text x="20" y="405" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Customizable prefix &amp; fonts</text>
+          <text x="20" y="427" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Mobile &amp; browser mockups</text>
+          <text x="20" y="449" fill="#e4e4e7" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open source, MIT license</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="294" text-anchor="end" fill="#e4e4e7" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg></div>
+  </section>
+
+  <!-- #12 Bento: metrics + roadmap [APPROVED] -->
+  <section id="item-12" style="display:none">
+    <p class="label">#12 — Bento: metrics + roadmap</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 340" width="830" height="340">
+  <style>
+    
+    .b2-slide-left {
+      opacity: 0;
+      animation: b2-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b2-slide-right {
+      opacity: 0;
+      animation: b2-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b2-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b2-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b2-scroll-up {
+      animation: b2-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b2-scroll-down {
+      transform: translateY(-220px);
+      animation: b2-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b2-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-220px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b2-scrollDown {
+      0%, 5% { transform: translateY(-220px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-220px); }
+    }
+  </style>
+  
+    <defs>
+      <filter id="card-shadow" x="-4%" y="-4%" width="108%" height="108%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+      </filter>
+    </defs>
+    <rect x="0" y="0" width="830" height="340" rx="12" ry="12" fill="#1e1e2e" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="830" height="340" rx="12" ry="12" fill="none" stroke="#cdd6f4" stroke-width="0.5" opacity="0.1"/>
+    <text x="415" y="26" text-anchor="middle" fill="#a6adc8" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="13" font-weight="600">Project Health</text>
+    <line x1="0" y1="40" x2="830" y2="40" stroke="#cdd6f4" stroke-width="0.5" opacity="0.1"/>
+  
+    <defs>
+      <clipPath id="b2-clip-0">
+        <rect x="24" y="60" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b2-slide-left">
+      <g clip-path="url(#b2-clip-0)">
+        <rect x="24" y="60" width="383" height="252" rx="10" fill="#585b70" opacity="0.15"/>
+        <g class="b2-scroll-up">
+          <g transform="translate(24, 60)">
+            <text x="20" y="31" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Performance</text>
+          <text x="20" y="53" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Lighthouse Score     98/100</text>
+          <text x="20" y="97" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">First Paint          0.8s</text>
+          <text x="20" y="119" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bundle Size          12 kB</text>
+          <text x="20" y="141" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Dependencies              3</text>
+          <text x="20" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Weekly Downloads      2.4K</text>
+          <text x="20" y="185" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GitHub Stars            480</text>
+          <text x="20" y="207" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open Issues               2</text>
+          <text x="20" y="229" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Test Coverage           94%</text>
+          <text x="20" y="251" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Performance</text>
+          <text x="20" y="273" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Lighthouse Score     98/100</text>
+          <text x="20" y="317" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">First Paint          0.8s</text>
+          <text x="20" y="339" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Bundle Size          12 kB</text>
+          <text x="20" y="361" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Dependencies              3</text>
+          <text x="20" y="383" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Weekly Downloads      2.4K</text>
+          <text x="20" y="405" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GitHub Stars            480</text>
+          <text x="20" y="427" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Open Issues               2</text>
+          <text x="20" y="449" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Test Coverage           94%</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b2-clip-1">
+        <rect x="423" y="60" width="383" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b2-slide-right">
+      <g clip-path="url(#b2-clip-1)">
+        <rect x="423" y="60" width="383" height="252" rx="10" fill="#585b70" opacity="0.15"/>
+        <g class="b2-scroll-down">
+          <g transform="translate(423, 60)">
+            <text x="20" y="31" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Roadmap 2025</text>
+          <text x="20" y="53" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Frame system (5 types)</text>
+          <text x="20" y="97" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Bento grid layout</text>
+          <text x="20" y="119" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Custom fonts &amp; prefix</text>
+          <text x="20" y="141" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Theme editor (visual)</text>
+          <text x="20" y="163" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  prefers-color-scheme</text>
+          <text x="20" y="185" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Export to PNG / video</text>
+          <text x="20" y="207" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  VS Code extension</text>
+          <text x="20" y="229" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Plugin API for frames</text>
+          <text x="20" y="251" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Roadmap 2025</text>
+          <text x="20" y="273" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Frame system (5 types)</text>
+          <text x="20" y="317" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Bento grid layout</text>
+          <text x="20" y="339" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">✔ Custom fonts &amp; prefix</text>
+          <text x="20" y="361" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Theme editor (visual)</text>
+          <text x="20" y="383" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  prefers-color-scheme</text>
+          <text x="20" y="405" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Export to PNG / video</text>
+          <text x="20" y="427" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  VS Code extension</text>
+          <text x="20" y="449" fill="#cdd6f4" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  Plugin API for frames</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="334" text-anchor="end" fill="#cdd6f4" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg></div>
+  </section>
+
+  <!-- #13 Bento: before / after [APPROVED] -->
+  <section id="item-13" style="display:none">
+    <p class="label">#13 — Bento: before / after</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 284" width="830" height="284">
+  <style>
+    
+    .b3-slide-left {
+      opacity: 0;
+      animation: b3-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b3-slide-right {
+      opacity: 0;
+      animation: b3-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b3-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b3-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b3-scroll-up {
+      animation: b3-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b3-scroll-down {
+      transform: translateY(-220px);
+      animation: b3-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b3-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-220px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b3-scrollDown {
+      0%, 5% { transform: translateY(-220px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-220px); }
+    }
+  </style>
+  
+    <rect x="0" y="0" width="830" height="284" fill="#282a36"/>
+  
+    <defs>
+      <clipPath id="b3-clip-0">
+        <rect x="16" y="12" width="391" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b3-slide-left">
+      <g clip-path="url(#b3-clip-0)">
+        <rect x="16" y="12" width="391" height="252" rx="10" fill="#44475a" opacity="0.15"/>
+        <g class="b3-scroll-up">
+          <g transform="translate(16, 12)">
+            <text x="20" y="31" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Before</text>
+          <text x="20" y="53" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Plain text README</text>
+          <text x="20" y="97" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No visual previews</text>
+          <text x="20" y="119" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Static badges only</text>
+          <text x="20" y="141" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Hard to show features</text>
+          <text x="20" y="163" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users scroll past docs</text>
+          <text x="20" y="185" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No brand consistency</text>
+          <text x="20" y="207" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Boring, forgettable</text>
+          <text x="20" y="229" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Low engagement</text>
+          <text x="20" y="251" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Before</text>
+          <text x="20" y="273" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Plain text README</text>
+          <text x="20" y="317" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No visual previews</text>
+          <text x="20" y="339" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Static badges only</text>
+          <text x="20" y="361" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Hard to show features</text>
+          <text x="20" y="383" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users scroll past docs</text>
+          <text x="20" y="405" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">No brand consistency</text>
+          <text x="20" y="427" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Boring, forgettable</text>
+          <text x="20" y="449" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Low engagement</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b3-clip-1">
+        <rect x="423" y="12" width="391" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b3-slide-right">
+      <g clip-path="url(#b3-clip-1)">
+        <rect x="423" y="12" width="391" height="252" rx="10" fill="#44475a" opacity="0.15"/>
+        <g class="b3-scroll-down">
+          <g transform="translate(423, 12)">
+            <text x="20" y="31" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">After</text>
+          <text x="20" y="53" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Animated SVG previews</text>
+          <text x="20" y="97" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Terminal &amp; app mockups</text>
+          <text x="20" y="119" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Interactive feel, no JS</text>
+          <text x="20" y="141" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Features come alive</text>
+          <text x="20" y="163" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users stop and look</text>
+          <text x="20" y="185" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent branding</text>
+          <text x="20" y="207" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Memorable, shareable</text>
+          <text x="20" y="229" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">2x more engagement</text>
+          <text x="20" y="251" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">After</text>
+          <text x="20" y="273" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="295" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Animated SVG previews</text>
+          <text x="20" y="317" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Terminal &amp; app mockups</text>
+          <text x="20" y="339" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Interactive feel, no JS</text>
+          <text x="20" y="361" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Features come alive</text>
+          <text x="20" y="383" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Users stop and look</text>
+          <text x="20" y="405" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Consistent branding</text>
+          <text x="20" y="427" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Memorable, shareable</text>
+          <text x="20" y="449" fill="#f8f8f2" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">2x more engagement</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="278" text-anchor="end" fill="#f8f8f2" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg></div>
+  </section>
+
+  <!-- #14 Bento: browser 830px + API docs [APPROVED] -->
+  <section id="item-14" style="display:none">
+    <p class="label">#14 — Bento: browser 830px + API docs</p>
+    <div class="svg-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 334" width="830" height="334">
+  <style>
+    
+    .b4-slide-left {
+      opacity: 0;
+      animation: b4-slideLeft 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .b4-slide-right {
+      opacity: 0;
+      animation: b4-slideRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards;
+    }
+    @keyframes b4-slideLeft {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes b4-slideRight {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .b4-scroll-up {
+      animation: b4-scrollUp 14s ease-in-out 1.4s infinite;
+    }
+    .b4-scroll-down {
+      transform: translateY(-330px);
+      animation: b4-scrollDown 14s ease-in-out 1.4s infinite;
+    }
+    @keyframes b4-scrollUp {
+      0%, 5% { transform: translateY(0); }
+      45%, 55% { transform: translateY(-352px); }
+      95%, 100% { transform: translateY(0); }
+    }
+    @keyframes b4-scrollDown {
+      0%, 5% { transform: translateY(-330px); }
+      45%, 55% { transform: translateY(0); }
+      95%, 100% { transform: translateY(-330px); }
+    }
+  </style>
+  
+    <defs>
+      <clipPath id="browser-clip">
+        <rect x="0" y="0" width="830" height="334" rx="10" ry="10"/>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#browser-clip)">
+      <rect x="0" y="0" width="830" height="334" fill="#2e3440"/>
+    <rect x="0" y="0" width="830" height="42" rx="10" ry="0" fill="#272c36"/>
+    <rect x="0" y="10" width="830" height="32" fill="#272c36"/>
+
+    <circle cx="18" cy="18" r="6" fill="#bf616a"/>
+    <circle cx="38" cy="18" r="6" fill="#ebcb8b"/>
+    <circle cx="58" cy="18" r="6" fill="#a3be8c"/>
+
+    <rect x="80" y="10" width="730" height="22" rx="6" fill="#2e3440" opacity="0.5"/>
+    <text x="415" y="25" text-anchor="middle" fill="#81a1c1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="11" opacity="0.7">docs.myapp.com</text>
+
+    <line x1="0" y1="42" x2="830" y2="42" stroke="#2e3440" stroke-width="1" opacity="0.3"/>
+    </g>
+    <rect x="0" y="0" width="830" height="334" rx="10" ry="10" fill="none" stroke="#272c36" stroke-width="1" opacity="0.5"/>
+  
+    <defs>
+      <clipPath id="b4-clip-0">
+        <rect x="20" y="58" width="387" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b4-slide-left">
+      <g clip-path="url(#b4-clip-0)">
+        <rect x="20" y="58" width="387" height="252" rx="10" fill="#434c5e" opacity="0.15"/>
+        <g class="b4-scroll-up">
+          <g transform="translate(20, 58)">
+            <text x="20" y="31" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Authentication</text>
+          <text x="20" y="53" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /auth/login</text>
+          <text x="20" y="97" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  email: string</text>
+          <text x="20" y="119" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  password: string</text>
+          <text x="20" y="141" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { token, refreshToken }</text>
+          <text x="20" y="163" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="185" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /auth/register</text>
+          <text x="20" y="207" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  name: string</text>
+          <text x="20" y="229" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  email: string</text>
+          <text x="20" y="251" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  password: string</text>
+          <text x="20" y="273" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { user, token }</text>
+          <text x="20" y="295" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="317" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /auth/refresh</text>
+          <text x="20" y="339" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  refreshToken: string</text>
+          <text x="20" y="361" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { token }</text>
+          <text x="20" y="383" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Authentication</text>
+          <text x="20" y="405" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="427" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /auth/login</text>
+          <text x="20" y="449" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  email: string</text>
+          <text x="20" y="471" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  password: string</text>
+          <text x="20" y="493" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { token, refreshToken }</text>
+          <text x="20" y="515" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="537" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /auth/register</text>
+          <text x="20" y="559" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  name: string</text>
+          <text x="20" y="581" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  email: string</text>
+          <text x="20" y="603" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  password: string</text>
+          <text x="20" y="625" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { user, token }</text>
+          <text x="20" y="647" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="669" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /auth/refresh</text>
+          <text x="20" y="691" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  refreshToken: string</text>
+          <text x="20" y="713" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { token }</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <defs>
+      <clipPath id="b4-clip-1">
+        <rect x="423" y="58" width="387" height="252" rx="10"/>
+      </clipPath>
+    </defs>
+    <g class="b4-slide-right">
+      <g clip-path="url(#b4-clip-1)">
+        <rect x="423" y="58" width="387" height="252" rx="10" fill="#434c5e" opacity="0.15"/>
+        <g class="b4-scroll-down">
+          <g transform="translate(423, 58)">
+            <text x="20" y="31" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Resources</text>
+          <text x="20" y="53" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="75" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GET  /api/projects</text>
+          <text x="20" y="97" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project[], total }</text>
+          <text x="20" y="119" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="141" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /api/projects</text>
+          <text x="20" y="163" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  name: string</text>
+          <text x="20" y="185" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  description?: string</text>
+          <text x="20" y="207" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project }</text>
+          <text x="20" y="229" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="251" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GET  /api/projects/:id</text>
+          <text x="20" y="273" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project }</text>
+          <text x="20" y="295" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="317" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">PUT  /api/projects/:id</text>
+          <text x="20" y="339" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project }</text>
+          <text x="20" y="361" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">Resources</text>
+          <text x="20" y="383" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="405" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GET  /api/projects</text>
+          <text x="20" y="427" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project[], total }</text>
+          <text x="20" y="449" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="471" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">POST /api/projects</text>
+          <text x="20" y="493" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  name: string</text>
+          <text x="20" y="515" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  description?: string</text>
+          <text x="20" y="537" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project }</text>
+          <text x="20" y="559" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="581" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">GET  /api/projects/:id</text>
+          <text x="20" y="603" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project }</text>
+          <text x="20" y="625" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13"></text>
+          <text x="20" y="647" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">PUT  /api/projects/:id</text>
+          <text x="20" y="669" fill="#d8dee9" font-family="'JetBrains Mono','Fira Code','SF Mono','Cascadia Code',Consolas,monospace" font-size="13">  → { data: Project }</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  <text x="822" y="328" text-anchor="end" fill="#d8dee9" opacity="0.05" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="10">@promise-inc/dev-reel</text>
+</svg></div>
+  </section>
+  </div>
+</body>
+</html>

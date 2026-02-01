@@ -1,6 +1,6 @@
 {
   "name": "@promise-inc/dev-reel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate animated SVG terminal previews from your README.md — pure SVG, no JavaScript, GitHub-compatible.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
